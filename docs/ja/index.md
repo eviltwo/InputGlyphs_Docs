@@ -32,32 +32,8 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 
 ![Multiple Glyph]({{site.baseurl}}/assets/multi_glyph.png)
 
-# 事前準備
-
-## Input System
-1. 最新のInputSystem packageをUnityPackageManagerからインポートしてください。
-TODO: overview of inputsystem, InputActionMap and PlayerInput
-
-## Place initializer
-Place InputGlyphSetup.prefab in the first scene.
-
-TODO: xxxInitializer tutorial and SteamGlyph tutorial
-
-## Create Texture Map
-If you are using a prefab, you do not need to do anything.
-
-TODO: InputGlyphTextureMap custom tutorial. Texture Read/Write must be enabled.
-
-# Display glyphs
-TODO: overview of display components
-
-TODO: detail of glyph layout (Single, Horizontal)
-
-## Sprite Renderer
-
-## UI Image
-
-## Text Mesh Pro
-
-# Samples
-TODO: Sample scene list and description
+# サンプル
+- SoloPlayerSample : １人プレイを想定したサンプルです。入力があったデバイスのグリフ画像に切り替わります。
+- DuoPlayerSample : ２人プレイを想定したサンプルです。１人目と２人目で異なるグリフ画像が表示されます。
+- InputCheckSample : デバイスのボタンを押すとそのボタンのグリフ画像が表示されます。
+- SteamworksSample : Steamが提供するグリフ画像を表示します。Steamworksの設定が必要です。
