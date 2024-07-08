@@ -21,7 +21,7 @@ Input Glyphsを使うための準備と、ゲームにグリフ画像を表示�
 > `InputGlyphsSetup`プレハブには、`Keyboard Glyph Initializer`コンポーネントなどのデバイスごとの初期化処理が含まれています。
 
 # グリフ画像を描画
-プロジェクトに合う描画方法を選んでください。
+グリフ画像はSprite Renderer、UI Image、Text Mesh Proで描画できます。
 ## Sprite Renderer
 - 任意のオブジェクトに`Sprite Renderer`コンポーネントをアタッチしてください。
 - 同じオブジェクトに`Input Glyph Sprite`コンポーネントをアタッチしてください。
