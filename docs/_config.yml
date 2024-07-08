@@ -7,3 +7,5 @@ search_enabled: true
 
 sidebar:
   - overview
+  - children:
+    - setup
