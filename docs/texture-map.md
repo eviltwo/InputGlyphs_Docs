@@ -17,7 +17,7 @@ Each device and the `xxxGlyphTextureMap` asset are linked in the `InputGlyphsSet
 # Import Settings for Glyph Images
 Make sure to enable Read/Write for the import settings of glyph images.
 
-# Adding Glyph Images
+# Add Glyph Images
 As an example, here are the steps to add keyboard glyphs.
 - From Unity's top menu, select `Assets > Create > InputGlyphs > InputGlyphTextureMap` to create an asset.
 - Press the `+` button on the list of the created asset.
@@ -25,7 +25,7 @@ As an example, here are the steps to add keyboard glyphs.
 - Press the `+` button on the list of the `KeyboardGlyphInitializer` component of the `InputGlyphsSetup` prefab placed in the scene.
 - Replace the last item in the list with the created asset.
 
-# Changing Glyph Images
+# Change Glyph Images
 As an example, here are the steps to change keyboard glyphs.
 - Duplicate `InputGlyphs/Data/KeyboardAlphabetGlyphTextureMap` to your project. (Ctrl+drag, etc.)
 - Replace the `GlyphTexture` of the duplicated asset with the image you want to change.
