@@ -7,12 +7,10 @@ next_page: false
 
 Steamworks APIは[コントローラのグリフ画像を提供しています](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin)。Input GlyphsにはSteamゲーム開発者がこのグリフ画像を表示するための仕組みがあります。
 
-> [!NOTE]  
 > 私たちがこの仕組みを作った経緯：
 > 
 > Input Systemとほぼ同じ機能がSteamworksにも存在し、それがSteam Input APIです。
-> しかし、私たちはUnity開発者にSteam Input APIの実装をお勧めしません。
-> なぜなら、Steam Input APIを有効にするとゲームパッドの入力が完全に無効化され、UnityのEvent Systemが機能しなくなり、ユーザはUIの操作ができなくなるためです。
+> しかし、私たちはUnityを使っているゲーム開発者にSteam Input APIの実装をお勧めしません。なぜなら、Steam Input APIを有効にするとゲームパッドの入力が完全に無効化され、UnityのEvent Systemが機能しなくなり、ユーザはUIの操作ができなくなるためです。
 > 
 > とはいえ、Steam Input APIで提供されるグリフ画像はクオリティが高く、継続して更新されるという信頼性があります。そこで私たちは、Steam Input APIの一部を利用して、Input Systemのデバイス情報からSteamのグリフ画像を取得する仕組みを作りました。
 

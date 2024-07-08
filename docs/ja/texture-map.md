@@ -15,7 +15,7 @@ next_page: ja-custom-device
 各デバイスと`xxxGlyphTextureMap`アセットは`InputGlyphsSetup`プレハブで紐づけています。`KeyboardGlyphInitializer`コンポーネントなどに先ほどの`xxxGlyphTextureMap`アセットをアサインすることで、Input Glyphsはデバイスとボタンの情報からグリフ画像を検索することができます。
 
 # グリフ画像のインポート設定
-追加や変更をする画像は、必ずRead/Writeを有効にしてください。
+グリフ画像のインポート設定のRead/Writeは必ず有効にしてください。
 
 # グリフ画像を追加する
 例として、キーボードのグリフを追加する手順をご案内します。
