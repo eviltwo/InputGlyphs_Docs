@@ -25,7 +25,7 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 - Playstation コントローラ
 - Switch Pro コントローラ
 
-デフォルトのグリフ画像は[Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (CC0)を使用しています。Steam向けにゲームを開発している場合は、Steamworksが提供している豊富なゲームパッド用のグリフ画像を読み込むこともできます。
+デフォルトのグリフ画像は[Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (Creative Commons 0)を使用しています。Steam向けにゲームを開発している場合は、Steamworksが提供している豊富なゲームパッド用のグリフ画像を読み込むこともできます。
 
 ## 複数のボタン割り当てに対応
 「移動:WASD」など、１つのアクションに複数のボタンが割り当てられている場合、連結されたグリフ画像を生成します。

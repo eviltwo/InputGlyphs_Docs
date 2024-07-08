@@ -17,7 +17,6 @@ Input Glyphsを使うための準備と、ゲームにグリフ画像を表示�
 # 初期化用のオブジェクトを配置
 - `InputGlyphs/Prefabs/InputGlyphsSetup`プレハブを最初のシーンに配置してください。
 
-> [!NOTE]  
 > `InputGlyphsSetup`プレハブには、`Keyboard Glyph Initializer`コンポーネントなどのデバイスごとの初期化処理が含まれています。
 
 # グリフ画像を描画

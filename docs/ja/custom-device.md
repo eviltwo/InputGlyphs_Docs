@@ -17,6 +17,7 @@ Input Systemは、独自のデバイスを登録できる仕組みがありま�
 
 # 簡単な方法
 簡単な方法は、`DeviceGlyphLoaderInitializer<T>`を継承することです。Loaderの処理、TextureMapの受け渡し、Managerへの登録などが全て実装されています。`KeyboardGlyphInitializer.cs`や`MouseGlyphInitializer.cs`はこの方法で実装されています。
+
 ```
 using InputGlyphs.Loaders.Utils;
 
