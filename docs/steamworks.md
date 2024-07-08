@@ -5,7 +5,7 @@ previous_page: custom-device
 next_page: false
 ---
 
-The Steamworks API [provides controller glyph images](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs has a mechanism for Steam game developers to display these glyph images.
+The Steamworks API [provides gamepad glyph images](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs has a mechanism for Steam game developers to display these glyph images.
 
 > Background of why we created this mechanism:
 > 
@@ -27,4 +27,4 @@ The `SteamGamepadGlyphInitializer` component will display the packages that need
 This feature uses [Steamworks.NET](https://steamworks.github.io/). Set up Steamworks by following pages like [Getting Started](https://steamworks.github.io/gettingstarted). As long as `SteamAPI.Init()` is executed at the start of the game, this feature will work.
 
 # Play the game
-Play the game with the Steam.exe client running. If Steamworks is initialized successfully, the glyph images provided by Steam will be displayed when you operate the controller.
+Play the game with the Steam.exe client running. If Steamworks is initialized successfully, the glyph images provided by Steam will be displayed when you operate the gamepad.
