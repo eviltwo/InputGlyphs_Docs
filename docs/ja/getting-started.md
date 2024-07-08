@@ -28,11 +28,15 @@ Input Glyphsを使うための準備と、実際にグリフ画像が表示さ�
   - `Player Input`フィールドに表示したいプレイヤーをアサインしてください。
   - `Input ACtion Reference`フィールドに表示したいアクションをアサインしてください。
 
+![Sprite Renderer settings]({{site.baseurl}}/assets/input_glyph_sprite.png)
+
 ## UI Image
 - Canvas内の任意のオブジェクトに`UI Image`コンポーネントをアタッチしてください。
 - 同じオブジェクトに`Input Glyph Image`コンポーネントをアタッチしてください。
   - `Player Input`フィールドに表示したいプレイヤーをアサインしてください。
   - `Input ACtion Reference`フィールドに表示したいアクションをアサインしてください。
+ 
+![UI Image settings]({{site.baseurl}}/assets/input_glyph_image.png)
 
 ## Text Mesh Pro
 - Canvas内の任意のオブジェクトに`Text Mesh Pro - UI`コンポーネントをアタッチしてください。
@@ -40,3 +44,6 @@ Input Glyphsを使うための準備と、実際にグリフ画像が表示さ�
   - `Player Input`フィールドに表示したいプレイヤーをアサインしてください。
   - `Input ACtion References`フィールドに表示したいアクションをアサインしてください。
 - `Text Mesh Pro`コンポーネントに`<sprite name=ActionName>`のようなタグを記述してください。タグがGlyph画像に置換されます。
+
+![TMPro text settings]({{site.baseurl}}/assets/input_glyph_text_1.png)
+![TMPro glyph settings]({{site.baseurl}}/assets/input_glyph_text_2.png)
