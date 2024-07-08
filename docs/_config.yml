@@ -7,5 +7,5 @@ search_enabled: true
 
 sidebar:
   - overview
-  - children:
-    - setup
+  - installation
+  - getting-started
