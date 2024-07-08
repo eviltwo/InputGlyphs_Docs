@@ -7,5 +7,4 @@ search_enabled: true
 
 sidebar:
   - overview
-  - installation
   - getting-started
