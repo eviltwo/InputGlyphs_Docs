@@ -8,3 +8,6 @@ search_enabled: true
 sidebar:
   - overview
   - getting-started
+  - label: ja
+    children:
+      - ja-overview
