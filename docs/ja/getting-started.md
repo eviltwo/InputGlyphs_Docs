@@ -1,11 +1,11 @@
 ---
-id: ja-overview
+id: ja-getting-started
 title: 基本設定
-previous_page: overview
+previous_page: ja-overview
 next_page: ja-texture-map
 ---
 
-Input Glyphsを使うための準備と、実際にグリフ画像が表示されるまでの手順です。
+Input Glyphsを使うための準備と、ゲームにグリフ画像を表示するまでの手順をご案内します。
 
 # Input Systemの設定
 - [Unityの公式ドキュメント](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Installation.html)に従ってInput Systemをインポート・有効化をしてください。
@@ -46,4 +46,8 @@ Input Glyphsを使うための準備と、実際にグリフ画像が表示さ�
 - `Text Mesh Pro`コンポーネントに`<sprite name=ActionName>`のようなタグを記述してください。タグがGlyph画像に置換されます。
 
 ![TMPro text settings]({{site.baseurl}}/assets/input_glyph_text_1.png)
+
 ![TMPro glyph settings]({{site.baseurl}}/assets/input_glyph_text_2.png)
+
+# ゲームを再生する
+ゲームを再生すると、グリフ画像が表示されます。表示されない場合は、エラーログを確認してみてください。

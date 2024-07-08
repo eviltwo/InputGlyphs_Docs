@@ -8,10 +8,10 @@ search_enabled: true
 sidebar:
   - overview
   - getting-started
-  - label: ja
+  - label: Language-日本語
     children:
       - ja-overview
       - ja-getting-started
-      - texture-map
-      - custom-device
-      - steamworks
+      - ja-texture-map
+      - ja-custom-device
+      - ja-steamworks
