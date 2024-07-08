@@ -11,3 +11,7 @@ sidebar:
   - label: ja
     children:
       - ja-overview
+      - ja-getting-started
+      - texture-map
+      - custom-device
+      - steamworks
