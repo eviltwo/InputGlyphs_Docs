@@ -28,7 +28,7 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 デフォルトのグリフ画像は[Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (CC0)を使用しています。Steam向けにゲームを開発している場合は、Steamworksが提供している豊富なゲームパッド用のグリフ画像を読み込むこともできます。
 
 ## 複数のボタン割り当てに対応
-「移動:WASD」など、１アクションに複数のボタンが割り当てられている場合、連結されたグリフ画像を生成します。
+「移動:WASD」など、１つのアクションに複数のボタンが割り当てられている場合、連結されたグリフ画像を生成します。
 
 ![Multiple Glyph]({{site.baseurl}}/assets/multi_glyph.png)
 
