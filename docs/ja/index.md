@@ -14,7 +14,7 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 ## グリフ画像の表示
 あなたのプロジェクトのInputActionsやPlayerInputに合わせてグリフ画像が表示されます。グリフ画像はSprite Renderer、UI Image、Text Mesh Proで表示できます。
 
-![duo_glyphs](/assets/duo_glyphs.png)
+![Duo player glyphs](https://raw.githubusercontent.com/eviltwo/InputGlyphs_Docs/main/assets/duo_glyphs.png)
 
 ## 様々な入力デバイスに対応
 デフォルトでは以下のデバイスのグリフを表示できます。その他のデバイスのために拡張することもできます。
