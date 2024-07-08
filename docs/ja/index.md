@@ -13,7 +13,8 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 # 特徴
 ## グリフ画像の表示
 あなたのプロジェクトのInputActionsやPlayerInputに合わせてグリフ画像が表示されます。グリフ画像はSprite Renderer、UI Image、Text Mesh Proで表示できます。
-![duo](https://github.com/eviltwo/InputGlyphs_Docs/assets/7721151/0f10aeb7-6a3d-4c3e-9762-ceec66ecd216)
+
+![duo_glyphs](/assets/duo_glyphs.png)
 
 ## 様々な入力デバイスに対応
 デフォルトでは以下のデバイスのグリフを表示できます。その他のデバイスのために拡張することもできます。
@@ -26,6 +27,7 @@ InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタ�
 
 ## 複数のボタン割り当てに対応
 「移動:WASD」など、１アクションに複数のボタンが割り当てられている場合、連結されたグリフ画像を生成します。
+
 ![image](https://github.com/eviltwo/InputGlyphs_Docs/assets/7721151/1a352351-6d75-4133-a23d-a6d2198d8785)
 
 
