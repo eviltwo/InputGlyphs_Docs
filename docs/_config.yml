@@ -25,3 +25,10 @@ sidebar:
       - zh-CN-texture-map
       - zh-CN-custom-device
       - zh-CN-steamworks
+  - label: Language-한국어
+    children:
+      - ko-overview
+      - ko-getting-started
+      - ko-texture-map
+      - ko-custom-device
+      - ko-steamworks
