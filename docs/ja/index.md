@@ -4,7 +4,7 @@ title: Input Glyphs
 next_page: ja-getting-started
 ---
 
-![Title]({{site.baseurl}}/assets/SocialMedia.png)
+![Title]({{site.baseurl}}/assets/Card.png)
 
 InputGlyphsは、UnityのInputSystemが検知した入力デバイスのボタンのグリフ画像(アイコン)を表示するためのパッケージです。導入が簡単で、デバイスやグリフ画像の拡張もできるように設計されています。
 

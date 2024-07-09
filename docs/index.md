@@ -4,7 +4,7 @@ title: Input Glyphs
 next_page: getting-started
 ---
 
-![Title]({{site.baseurl}}/assets/SocialMedia.png)
+![Title]({{site.baseurl}}/assets/Card.png)
 
 InputGlyphs is a package designed to display button glyph images (icons) of input devices detected by Unity's InputSystem. It is easy to install and designed to allow for the extension of devices and glyph images.
 
