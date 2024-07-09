@@ -18,3 +18,10 @@ sidebar:
       - ja-texture-map
       - ja-custom-device
       - ja-steamworks
+   - label: Language-中文
+    children:
+      - zh-CN-overview
+      - zh-CN-getting-started
+      - zh-CN-texture-map
+      - zh-CN-custom-device
+      - zh-CN-steamworks
