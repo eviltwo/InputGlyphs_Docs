@@ -8,7 +8,7 @@ InputGlyphs is a package designed to display button glyph images (icons) of inpu
 
 The glyph images in the game will automatically switch according to the device in use.
 
-The package includes pre-configured glyph images for keyboards & mice and various controllers, but you can add or change your own glyph images or use the glyphs provided by Steamworks.
+The package includes pre-configured glyph images for keyboard & mouse and gamepads, but you can add or change your own glyph images or use the glyphs provided by Steamworks.
 
 # Features
 ## Display Button Glyph Images
