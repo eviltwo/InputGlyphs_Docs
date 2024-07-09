@@ -10,6 +10,7 @@ This guide explains how to prepare for using Input Glyphs and the steps to displ
 # Set up the Input System
 - Please import and enable the Input System according to [Unity's official documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Installation.html).
 - Use [Player Input](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Components.html) events for character movement in the game.
+  - For the Behavior of Player Input, you need to select either Invoke C Sharp Events or Invoke Unity Events.
 
 # Install Input Glyphs
 - Import the latest Input Glyphs from the Unity Package Manager.

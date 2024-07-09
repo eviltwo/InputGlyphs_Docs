@@ -10,6 +10,7 @@ Input Glyphs를 사용하기 위한 준비와 게임에 글리프 이미지를 �
 # Input System 설정
 - [Unity의 공식 문서](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Installation.html)에 따라 Input System을 가져와서 활성화하세요.
 - 게임 내 캐릭터의 움직임은 [Player Input](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Components.html) 이벤트를 사용하세요.
+  - Player Input의 동작은 Invoke C Sharp Events 또는 Invoke Unity Events 중 하나를 선택해야 합니다.
 
 # Input Glyphs 설치
 - Unity Package Manager에서 최신 Input Glyphs를 가져오세요.

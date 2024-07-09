@@ -10,6 +10,7 @@ next_page: zh-CN-texture-map
 # Input System的设置
 - 请按照[Unity的官方文档](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Installation.html)导入和启用Input System。
 - 游戏中的角色移动使用[Player Input](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.4/manual/Components.html)的事件。
+  - Player Input的行为需要选择Invoke C Sharp Events或Invoke Unity Events。
 
 # 安装Input Glyphs
 - 从Unity Package Manager导入最新的Input Glyphs。
