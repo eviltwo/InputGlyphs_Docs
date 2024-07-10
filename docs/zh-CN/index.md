@@ -6,7 +6,7 @@ next_page: zh-CN-getting-started
 
 ![Title]({{site.baseurl}}/assets/Card.png)
 
-InputGlyphs是一个用于显示Unity的InputSystem检测到的输入设备按钮的字形图像（图标）的包。它易于安装，并且设计为可以扩展设备和字形图像。
+InputGlyphs是一个[开源](https://github.com/eviltwo/InputGlyphs)包，旨在显示由Unity的InputSystem检测到的输入设备的按钮字形图像（图标）。它易于集成，并设计为允许扩展设备和字形图像。
 
 游戏中的字形图像会根据输入设备自动切换。
 

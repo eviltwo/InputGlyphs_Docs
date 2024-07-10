@@ -6,7 +6,7 @@ next_page: ko-getting-started
 
 ![Title]({{site.baseurl}}/assets/Card.png)
 
-InputGlyphs는 Unity의 InputSystem이 감지한 입력 장치의 버튼 글리프 이미지(아이콘)를 표시하기 위한 패키지입니다. 도입이 간단하고, 장치나 글리프 이미지의 확장도 가능하도록 설계되었습니다.
+InputGlyphs는 Unity의 InputSystem이 감지한 입력 장치의 버튼 글리프 이미지(아이콘)를 표시하기 위한 [오픈 소스](https://github.com/eviltwo/InputGlyphs) 패키지입니다. 통합이 간편하며, 장치 및 글리프 이미지의 확장도 가능하도록 설계되었습니다.
 
 게임 중의 글리프 이미지는 입력 중인 장치에 맞춰 자동으로 전환됩니다.
 
