@@ -2,7 +2,7 @@
 id: ko-steamworks
 title: Steamworks의 글리프 이미지
 previous_page: ko-custom-device
-next_page: false
+next_page: ko-questions
 ---
 
 Steamworks API는 [컨트롤러의 글리프 이미지를 제공합니다](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs에는 Steam 게임 개발자가 이 글리프 이미지를 표시할 수 있는 메커니즘이 있습니다.

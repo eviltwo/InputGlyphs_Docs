@@ -2,7 +2,7 @@
 id: ja-steamworks
 title: Steamworksのグリフ画像
 previous_page: ja-custom-device
-next_page: false
+next_page: ja-questions
 ---
 
 Steamworks APIは[コントローラのグリフ画像を提供しています](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin)。Input GlyphsにはSteamゲーム開発者がこのグリフ画像を表示するための仕組みがあります。

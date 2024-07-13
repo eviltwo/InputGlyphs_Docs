@@ -2,7 +2,7 @@
 id: steamworks
 title: Steamworks
 previous_page: custom-device
-next_page: false
+next_page: questions
 ---
 
 The Steamworks API [provides gamepad glyph images](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs has a mechanism for Steam game developers to display these glyph images.

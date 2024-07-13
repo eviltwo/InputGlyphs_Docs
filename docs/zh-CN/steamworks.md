@@ -2,7 +2,7 @@
 id: zh-CN-steamworks
 title: Steamworks的图形图标
 previous_page: zh-CN-custom-device
-next_page: false
+next_page: zh-CN-questions
 ---
 
 Steamworks API提供了[控制器的图形图标](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin)。Input Glyphs中有一个机制，允许Steam游戏开发者显示这些图形图标。
