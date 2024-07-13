@@ -1,6 +1,6 @@
 ---
 id: ko-questions
-title: Q&A
+title: FAQ
 previous_page: ko-steamworks
 next_page: false
 ---

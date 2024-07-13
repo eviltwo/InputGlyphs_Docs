@@ -1,6 +1,6 @@
 ---
 id: ja-questions
-title: Q&A
+title: FAQ
 previous_page: ja-steamworks
 next_page: false
 ---

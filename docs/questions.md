@@ -1,6 +1,6 @@
 ---
 id: questions
-title: Q&A
+title: FAQ
 previous_page: steamworks
 next_page: false
 ---

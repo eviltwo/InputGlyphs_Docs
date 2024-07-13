@@ -1,6 +1,6 @@
 ---
 id: zh-CN-questions
-title: Q&A
+title: FAQ
 previous_page: zh-CN-steamworks
 next_page: false
 ---
