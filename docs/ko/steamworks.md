@@ -5,14 +5,14 @@ previous_page: ko-custom-device
 next_page: ko-questions
 ---
 
-Steamworks API는 [컨트롤러의 글리프 이미지를 제공합니다](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs에는 Steam 게임 개발자가 이 글리프 이미지를 표시할 수 있는 메커니즘이 있습니다.
+Steamworks API는 [컨트롤러의 글리프 이미지를 제공합니다](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). 이 페이지에서는 Steam이 제공하는 글리프 이미지를 표시하는 절차를 안내합니다.
 
-> 우리가 이 메커니즘을 만든 이유:
-> 
-> Input System과 거의 동일한 기능이 Steamworks에도 존재하며, 그것이 Steam Input API입니다.
-> 그러나 우리는 Unity를 사용하는 게임 개발자에게 Steam Input API의 구현을 권장하지 않습니다. 왜냐하면 Steam Input API를 활성화하면 게임 패드의 입력이 완전히 비활성화되고, Unity의 Event System이 작동하지 않아 사용자가 UI를 조작할 수 없기 때문입니다.
-> 
-> 그렇지만 Steam Input API에서 제공되는 글리프 이미지는 품질이 높고 지속적으로 업데이트된다는 신뢰성이 있습니다. 그래서 우리는 Steam Input API의 일부를 사용하여 Input System의 디바이스 정보에서 Steam의 글리프 이미지를 가져오는 메커니즘을 만들었습니다.
+> 주의해주세요:
+>
+> Steamworks에는 [Steam Input API](https://partner.steamgames.com/doc/api/isteaminput)라는 Input System과 유사한 메커니즘이 존재하지만, Input Glyphs는 Input System을 위한 패키지이며 Steam Input API를 지원하지 않습니다.
+> 현재 Steam Input API는 Unity의 Event System(UI 조작)에 대응하지 않기 때문에, 우리는 Steam Input API의 사용을 권장하지 않습니다.
+>
+> 이 페이지의 절차에 따라 설정하면 Input System을 사용하면서도 Steam이 제공하는 글리프를 표시할 수 있습니다.
 
 # 초기화용 오브젝트 배치
 `InputGlyphs/Prefabs/InputGlyphsSetup_Steamworks` 프리팹을 첫 번째 씬에 배치하세요.

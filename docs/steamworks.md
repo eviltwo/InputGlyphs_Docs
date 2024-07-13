@@ -5,14 +5,15 @@ previous_page: custom-device
 next_page: questions
 ---
 
-The Steamworks API [provides gamepad glyph images](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin). Input Glyphs has a mechanism for Steam game developers to display these glyph images.
+The Steamworks API provides [controller glyph images](https://partner.steamgames.com/doc/api/isteaminput#GetGlyphForActionOrigin).
+This page will guide you through the steps to display glyph images provided by Steam.
 
-> Background of why we created this mechanism:
-> 
-> Steamworks has a similar feature to the Input System, which is the Steam Input API.
-> However, we do not recommend implementing the Steam Input API for game developers using Unity. This is because enabling the Steam Input API completely disables gamepad input, rendering Unity's Event System non-functional and preventing users from operating the UI.
-> 
-> That said, the glyph images provided by the Steam Input API are of high quality and are reliably updated continuously. Therefore, we created a mechanism to obtain Steam glyph images from the Input System's device information using part of the Steam Input API.
+> Note:
+>
+> Steamworks has a similar mechanism called [Steam Input API](https://partner.steamgames.com/doc/api/isteaminput), but Input Glyphs is a package for the Input System and does not support the Steam Input API.
+> Currently, the Steam Input API does not support Unity's Event System (UI operation), so we do not recommend using the Steam Input API.
+>
+> By setting up as described on this page, you can display the glyphs provided by Steam while using the Input System.
 
 # Place the initialization object
 Place the `InputGlyphs/Prefabs/InputGlyphsSetup_Steamworks` prefab in the first scene.
