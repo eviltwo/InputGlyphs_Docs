@@ -24,7 +24,7 @@ Steamworks API는 [컨트롤러의 글리프 이미지를 제공합니다](https
 ![Required packages]({{site.baseurl}}/assets/steamworks_required_packages.png)
 
 # Steamworks 설정
-이 기능은 [Steamworks.NET](https://steamworks.github.io/)을 사용합니다. [Getting Started](https://steamworks.github.io/gettingstarted) 등의 페이지를 읽으며 Steamworks를 설정하세요. 적어도 게임 시작 시 `SteamAPI.Init()`가 실행되고 있다면 이 기능이 작동합니다.
+이 기능은 [Steamworks.NET](https://steamworks.github.io/)을 이용합니다. [Getting Started](https://steamworks.github.io/gettingstarted) 등의 페이지를 참조하여 Steamworks를 설정하십시오. 적어도 게임 시작 시 `SteamAPI.Init()` 및 `SteamInput.Init(false)`가 실행되면 이 기능이 작동합니다.
 
 # 게임 재생하기
 Steam.exe 클라이언트를 실행한 상태에서 게임을 재생합니다. Steamworks 초기화에 성공하면 컨트롤러를 조작하면 Steam이 제공하는 글리프 이미지가 표시됩니다.

@@ -25,7 +25,7 @@ The `SteamGamepadGlyphInitializer` component will display the packages that need
 ![Required packages]({{site.baseurl}}/assets/steamworks_required_packages.png)
 
 # Set up Steamworks
-This feature uses [Steamworks.NET](https://steamworks.github.io/). Set up Steamworks by following pages like [Getting Started](https://steamworks.github.io/gettingstarted). As long as `SteamAPI.Init()` is executed at the start of the game, this feature will work.
+This function utilizes [Steamworks.NET](https://steamworks.github.io/). Please follow the setup instructions on pages such as [Getting Started](https://steamworks.github.io/gettingstarted). At the very least, ensure that `SteamAPI.Init()` and `SteamInput.Init(false)` are executed at the start of the game for this function to work.
 
 # Play the game
 Play the game with the Steam.exe client running. If Steamworks is initialized successfully, the glyph images provided by Steam will be displayed when you operate the gamepad.

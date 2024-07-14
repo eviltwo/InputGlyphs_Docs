@@ -24,7 +24,7 @@ Steamworks API 提供了[控制器的图标图片](https://partner.steamgames.co
 ![Required packages]({{site.baseurl}}/assets/steamworks_required_packages.png)
 
 # 设置Steamworks
-此功能使用[Steamworks.NET](https://steamworks.github.io/)。请参阅[Getting Started](https://steamworks.github.io/gettingstarted)等页面来设置Steamworks。至少在游戏开始时执行`SteamAPI.Init()`，此功能才能工作。
+此功能利用了[Steamworks.NET](https://steamworks.github.io/)。请阅读[Getting Started](https://steamworks.github.io/gettingstarted)等页面设置 Steamworks。至少在游戏开始时执行 `SteamAPI.Init()` 和 `SteamInput.Init(false)`，此功能才能运行。
 
 # 运行游戏
 在启动Steam.exe客户端的状态下运行游戏。如果Steamworks初始化成功，操作控制器时会显示Steam提供的图形图标。
