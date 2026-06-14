@@ -27,8 +27,6 @@ InputGlyphs는 Unity의 InputSystem이 감지한 입력 장치의 버튼 글리�
 - Playstation 컨트롤러
 - Switch Pro 컨트롤러
 
-기본 글리프 이미지는 [Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (Creative Commons 0)을 사용하고 있습니다. Steam용으로 게임을 개발하고 있는 경우, Steamworks가 제공하는 풍부한 게임패드용 글리프 이미지를 로드할 수도 있습니다.
-
 ## 여러 버튼 할당에 대응
 「이동:WASD」 등, 하나의 액션에 여러 버튼이 할당된 경우, 연결된 글리프 이미지를 생성합니다.
 

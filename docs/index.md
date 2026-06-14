@@ -27,8 +27,6 @@ By default, glyph images for the following devices are supported. It can also be
 - Playstation Controller
 - Switch Pro Controller
 
-Default glyph images use [Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (Creative Commons 0). If you are developing a game for Steam, you can also load the abundant gamepad glyph images provided by Steamworks.
-
 ## Support for Multiple Button Assignments
 When multiple buttons are assigned to one action, such as "Move: WASD", concatenated glyph images are generated.
 
