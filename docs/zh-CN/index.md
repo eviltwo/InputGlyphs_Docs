@@ -27,8 +27,6 @@ InputGlyphs是一个[开源](https://github.com/eviltwo/InputGlyphs)包，旨在
 - Playstation 控制器
 - Switch Pro 控制器
 
-默认字形图像使用的是[Xelu's FREE Controller Prompts](https://thoseawesomeguys.com/prompts) (Creative Commons 0)。如果您正在为Steam开发游戏，还可以加载Steamworks提供的大量游戏手柄字形图像。
-
 ## 支持多按钮分配
 例如，“移动:WASD”等，为一个动作分配多个按钮时，会生成连接的字形图像。
 
